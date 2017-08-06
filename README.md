@@ -39,7 +39,7 @@ msg.getId();
 .........
 ```
 
-BUT with FastPojo you dont need custom modle because it is a "WORCKAROUND?" that can define objects type and then set and get them appropriately you just set and get directly>
+BUT with FastPojo you dont need custom modle because it is a "Wilde Card class" that can define objects type and then set and get them appropriately you just set and get directly>
 so:
 ## Usage
 ```java 
