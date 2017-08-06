@@ -31,6 +31,7 @@ public class Msg {
 for each variable you define its type and make setter and getter voids and pass it in a Routine process and then you use it like this usually
 ```java 
 //set
+Msg msg = new Msg();
 msg.setId(id);
 msg.setName(name);
 ........
@@ -42,8 +43,9 @@ msg.getId();
 BUT with FastPojo you dont need custom modle because it is a "Wilde Card class" that can define objects type and then set and get them appropriately you just set and get directly>
 so:
 ## Usage
+just copy the class to your project
 ```java 
-//set first vaariable
+FastPojo msg = new FastPojo();
 msg.set1(id);
 msg.set2(name);
 msg.set3(1.55);
